@@ -12,6 +12,11 @@ const breedDetailsFromFile = function(breed, callback) {
   //        Currently not returning anything from here, so breedDetailsFromFile function returns undefined.
 };
 
+
+// const readData = 
+// }
+
 // we try to get the return value
-const bombay = breedDetailsFromFile('Bombay',x => console.log(x));
-console.log('Return Value: ', bombay); // => will NOT print out details, instead we will see undefined!
+const bombay = breedDetailsFromFile('Bombay', (x) => {
+  console.log(x)});
+ // => will NOT print out details, instead we will see undefined!
